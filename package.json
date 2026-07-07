@@ -1,0 +1,12 @@
+{
+  "name": "storylabs-demo-public-page",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun server.js",
+    "dev": "bun run --hot server.js"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
