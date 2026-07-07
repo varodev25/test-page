@@ -41,7 +41,7 @@ stages:
         command: push
         repository: ${{ parameters.imageName }}
         tags: ${{ parameters.tag }}
-        containerRegistry: registryConnection
+        containerRegistry: testPageDeployConnection
 
 - stage: Deploy
 
