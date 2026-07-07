@@ -1,15 +1,11 @@
-trigger:
-- main
-
-resources:
-- repo: self
-
 parameters:
+
 - name: tag
   default: "$(Build.BuildId)"
 
 - name: imageName
-  default: "test-page"
+  default: "t1cenfo.azurecr.io/test-page"
+
 
 stages:
 
@@ -26,7 +22,6 @@ stages:
 
     - task: Docker@2
       displayName: Build
-
       inputs:
         command: build
         repository: ${{ parameters.imageName }}
@@ -34,14 +29,15 @@ stages:
         tags: ${{ parameters.tag }}
         containerRegistry: registryConnection
 
+
     - task: Docker@2
       displayName: Push
-
       inputs:
         command: push
         repository: ${{ parameters.imageName }}
         tags: ${{ parameters.tag }}
-        containerRegistry: testPageDeployConnection
+        containerRegistry: registryConnection
+
 
 - stage: Deploy
 
@@ -57,13 +53,8 @@ stages:
     steps:
 
     - task: AzureContainerApps@1
-
       inputs:
-
         azureSubscription: testPageDeployConnection
-
-        imageToDeploy: t1cenfo.azurecr.io/${{ parameters.imageName }}:${{ parameters.tag }}
-
+        imageToDeploy: t1cenfo.azurecr.io/test-page:${{ parameters.tag }}
         containerAppName: test-page
-
         resourceGroup: rg-devops

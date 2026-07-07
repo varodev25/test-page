@@ -1,0 +1,643 @@
+﻿[2026-07-07 07:17:23Z INFO HostContext] HTTP Trace Environment Variable: ''
+[2026-07-07 07:17:23Z INFO HostContext] HTTP trace not enabled - environment variable not set or false
+[2026-07-07 07:17:23Z VERB AgentProcess] Entering MainAsync
+[2026-07-07 07:17:23Z INFO AgentProcess] Agent package linux-x64.
+[2026-07-07 07:17:23Z INFO AgentProcess] Running on Linux (X64).
+[2026-07-07 07:17:23Z INFO AgentProcess] RuntimeInformation: Ubuntu 24.04.4 LTS.
+[2026-07-07 07:17:23Z VERB Terminal] Entering Initialize
+[2026-07-07 07:17:23Z INFO AgentProcess] Version: 5.275.0
+[2026-07-07 07:17:23Z INFO AgentProcess] Commit: 19f077a12f19a869ca124c1cf87d0554c283a244
+[2026-07-07 07:17:23Z INFO AgentProcess] Culture: 
+[2026-07-07 07:17:23Z INFO AgentProcess] UI Culture: 
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO AgentProcess] Validating directory permissions for: '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO AgentProcess] Successfully loaded 5 environment variables from .env file
+[2026-07-07 07:17:23Z VERB PromptManager] Entering Initialize
+[2026-07-07 07:17:23Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": null,
+  "DebugMode": false,
+  "Help": false,
+  "Version": false
+}
+[2026-07-07 07:17:23Z INFO AgentProcess] Command line arguments parsed successfully - ready for command execution
+[2026-07-07 07:17:23Z VERB Agent] Entering Initialize
+[2026-07-07 07:17:23Z VERB AgentProcess] Delegating command execution to Agent service
+[2026-07-07 07:17:23Z VERB Agent] Entering ExecuteCommand
+[2026-07-07 07:17:23Z VERB Agent] Initializing core services...
+[2026-07-07 07:17:23Z VERB VstsAgentWebProxy] Entering Initialize
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Proxy': '/home/azureuser/test-page/.proxy'
+[2026-07-07 07:17:23Z VERB VstsAgentWebProxy] Proxy address: 
+[2026-07-07 07:17:23Z INFO VstsAgentWebProxy] No proxy setting found.
+[2026-07-07 07:17:23Z VERB AgentCertificateManager] Entering Initialize
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Certificates': '/home/azureuser/test-page/.certificates'
+[2026-07-07 07:17:23Z INFO AgentCertificateManager] No certificate setting found.
+[2026-07-07 07:17:23Z VERB ConfigurationManager] Entering Initialize
+[2026-07-07 07:17:23Z VERB ConfigurationManager] Creating _store
+[2026-07-07 07:17:23Z VERB ConfigurationStore] Entering Initialize
+[2026-07-07 07:17:23Z INFO ConfigurationStore] currentAssemblyLocation: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] binPath: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] RootFolder: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Agent': '/home/azureuser/test-page/.agent'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] ConfigFilePath: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Credentials': '/home/azureuser/test-page/.credentials'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] CredFilePath: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Service': '/home/azureuser/test-page/.service'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] ServiceConfigFilePath: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Autologon': '/home/azureuser/test-page/.autologon'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] AutoLogonSettingsFilePath: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'Options': '/home/azureuser/test-page/.options'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] RuntimeOptionsFilePath: {0}
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'SetupInfo': '/home/azureuser/test-page/.setup_info'
+[2026-07-07 07:17:23Z INFO ConfigurationStore] SetupInfoFilePath: {0}
+[2026-07-07 07:17:23Z VERB ConfigurationManager] store created
+[2026-07-07 07:17:23Z VERB LocationServer] Entering Initialize
+[2026-07-07 07:17:23Z INFO Agent] Loading agent configuration from settings store
+[2026-07-07 07:17:23Z INFO ConfigurationManager] LoadSettings
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:23Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:23Z INFO ConfigurationStore] Read setting file: 188 chars
+[2026-07-07 07:17:23Z INFO ConfigurationManager] Settings Loaded
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:23Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:23Z VERB Agent] Agent configuration loaded successfully, Configured as service: 'False'
+[2026-07-07 07:17:23Z INFO Agent] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2026-07-07 07:17:23Z INFO Agent] Set agent startup type - Manual
+[2026-07-07 07:17:23Z INFO CommandSettings] Flag 'debug': 'False'
+[2026-07-07 07:17:23Z VERB TelemetryPublisher] Entering Initialize
+[2026-07-07 07:17:23Z VERB CustomerIntelligenceServer] Entering Initialize
+[2026-07-07 07:17:23Z VERB CredentialManager] Entering Initialize
+[2026-07-07 07:17:23Z INFO ConfigurationStore] HasCredentials()
+[2026-07-07 07:17:23Z INFO ConfigurationStore] stored True
+[2026-07-07 07:17:23Z INFO CredentialManager] GetCredentialProvider
+[2026-07-07 07:17:23Z INFO CredentialManager] Creating type OAuth
+[2026-07-07 07:17:23Z INFO CredentialManager] Creating credential type: OAuth
+[2026-07-07 07:17:23Z VERB CredentialManager] Created credential type
+[2026-07-07 07:17:23Z VERB RSAFileKeyManager] Entering Initialize
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:23Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:23Z INFO HostContext] Well known config file 'RSACredentials': '/home/azureuser/test-page/.credentials_rsaparams'
+[2026-07-07 07:17:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:23Z INFO ConfigurationManager] LoadSettings
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:23Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:23Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:23Z INFO ConfigurationManager] Settings Loaded
+[2026-07-07 07:17:23Z VERB VisualStudioServices] Started POST request to https://dev.azure.com/varorami/_apis/CustomerIntelligence/Events
+[2026-07-07 07:17:23Z VERB VisualStudioServices] Created OAuth issued token provider instance 56799051 (Bearer)
+[2026-07-07 07:17:24Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 67393c66-2c2b-4fc8-9d6c-a5626c5e071d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 550c0096-3792-49f7-b27b-47b49675a721
+X-TFS-Session: 5e033973-db72-4be2-bfb0-236b64c88689
+X-VSS-E2EID: b5efe35d-b7a3-482a-aa51-a3edc2fcc2fd
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/varorami/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/varorami/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fvarorami%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=9c2b5571-3107-4436-9caf-ff7fc8471c11&context=eyJodCI6MiwiaGlkIjoiMzE0YzZiYmQtNjEwNy00YjVkLTk5ODYtYjJjNDk2NmRjMDAwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=94ab57b9-db10-47bc-9c05-b7be04ba9d1d#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+X-RateLimit-Cost: 0
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 259172B57E6F431DBCBE4C32F041B2CB Ref B: BN1AA2051012011 Ref C: 2026-07-07T07:17:23Z
+Date: Tue, 07 Jul 2026 07:17:24 GMT
+
+[2026-07-07 07:17:24Z VERB VisualStudioServices] Started authentication
+[2026-07-07 07:17:24Z VERB VisualStudioServices] OAuth issued token provider instance 56799051 is acquiring a token
+[2026-07-07 07:17:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:24Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-07-07 07:17:24Z VERB VisualStudioServices] OAuth issued token provider instance 56799051 acquired new token instance 35236192
+[2026-07-07 07:17:24Z VERB VisualStudioServices] Finished authentication
+[2026-07-07 07:17:24Z VERB VisualStudioServices] OAuth issued token provider instance 56799051 validated token instance 35236192
+[2026-07-07 07:17:24Z VERB VisualStudioServices] Finished POST request to https://dev.azure.com/varorami/_apis/CustomerIntelligence/Events with status code 204
+[2026-07-07 07:17:24Z INFO CommandSettings] Flag 'once': 'False'
+[2026-07-07 07:17:24Z INFO CommandSettings] Flag 'once': 'False'
+[2026-07-07 07:17:24Z VERB Agent] Entering RunAsync
+[2026-07-07 07:17:24Z INFO Agent] Entering main agent execution loop(RunAsync)
+[2026-07-07 07:17:24Z VERB FeatureFlagProvider] Entering Initialize
+[2026-07-07 07:17:24Z VERB Agent] GetFeatureFlagAsync
+[2026-07-07 07:17:24Z INFO ConfigurationStore] HasCredentials()
+[2026-07-07 07:17:24Z INFO ConfigurationStore] stored True
+[2026-07-07 07:17:24Z INFO CredentialManager] GetCredentialProvider
+[2026-07-07 07:17:24Z INFO CredentialManager] Creating type OAuth
+[2026-07-07 07:17:24Z INFO CredentialManager] Creating credential type: OAuth
+[2026-07-07 07:17:24Z VERB CredentialManager] Created credential type
+[2026-07-07 07:17:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:24Z INFO ConfigurationManager] LoadSettings
+[2026-07-07 07:17:24Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:24Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:24Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:24Z INFO ConfigurationManager] Settings Loaded
+[2026-07-07 07:17:24Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.CheckPsModulesLocations
+[2026-07-07 07:17:24Z VERB VisualStudioServices] Created OAuth issued token provider instance 51288387 (Bearer)
+[2026-07-07 07:17:25Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 67393c66-2c2b-4fc8-9d6c-a5626c5e071d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 550c0076-3792-49f7-b27b-47b49675a721
+X-TFS-Session: 5e033973-db72-4be2-bfb0-236b64c88689
+X-VSS-E2EID: aaf5836e-6751-4b70-9db0-9942b2b42e4c
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/varorami/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/varorami/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fvarorami%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.CheckPsModulesLocations%3FcheckFeatureExists%3DFalse&redirect=1&hid=9c2b5571-3107-4436-9caf-ff7fc8471c11&context=eyJodCI6MiwiaGlkIjoiMzE0YzZiYmQtNjEwNy00YjVkLTk5ODYtYjJjNDk2NmRjMDAwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=f2fefc48-cecf-4078-8686-2edf61501e39#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+X-RateLimit-Cost: 0
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 7E1D36845137491C9491A08816ABFDCB Ref B: BN1AA2051013021 Ref C: 2026-07-07T07:17:24Z
+Date: Tue, 07 Jul 2026 07:17:25 GMT
+
+[2026-07-07 07:17:25Z VERB VisualStudioServices] Started authentication
+[2026-07-07 07:17:25Z VERB VisualStudioServices] OAuth issued token provider instance 51288387 is acquiring a token
+[2026-07-07 07:17:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:25Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-07-07 07:17:25Z VERB VisualStudioServices] OAuth issued token provider instance 51288387 acquired new token instance 64923656
+[2026-07-07 07:17:25Z VERB VisualStudioServices] Finished authentication
+[2026-07-07 07:17:25Z VERB VisualStudioServices] OAuth issued token provider instance 51288387 validated token instance 64923656
+[2026-07-07 07:17:25Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.CheckPsModulesLocations with status code 200
+[2026-07-07 07:17:25Z INFO Agent] Initializing message listener - establishing connection to Azure DevOps
+[2026-07-07 07:17:25Z VERB MessageListener] Entering Initialize
+[2026-07-07 07:17:25Z VERB AgentServer] Entering Initialize
+[2026-07-07 07:17:25Z VERB MessageListener] Entering CreateSessionAsync
+[2026-07-07 07:17:25Z INFO MessageListener] Progressive backoff knob value: False
+[2026-07-07 07:17:25Z INFO ConfigurationManager] LoadSettings
+[2026-07-07 07:17:25Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:25Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:25Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:25Z INFO ConfigurationManager] Settings Loaded
+[2026-07-07 07:17:25Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 18,
+  "AgentName": "work_",
+  "PoolId": 11,
+  "PoolName": "local-agent",
+  "ServerUrl": "https://dev.azure.com/varorami/",
+  "WorkFolder": "_work"
+}
+[2026-07-07 07:17:25Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2026-07-07 07:17:25Z VERB CapabilitiesManager] Entering Initialize
+[2026-07-07 07:17:25Z VERB CapabilitiesManager] Entering GetCapabilitiesAsync
+[2026-07-07 07:17:25Z VERB ExtensionManager] Entering Initialize
+[2026-07-07 07:17:25Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-07-07 07:17:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-07-07 07:17:25Z VERB AgentCapabilitiesProvider] Entering Initialize
+[2026-07-07 07:17:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-07-07 07:17:26Z VERB EnvironmentCapabilitiesProvider] Entering Initialize
+[2026-07-07 07:17:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-07-07 07:17:26Z VERB NixCapabilitiesProvider] Entering Initialize
+[2026-07-07 07:17:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-07-07 07:17:26Z VERB UserCapabilitiesProvider] Entering Initialize
+[2026-07-07 07:17:26Z VERB EnvironmentCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding '_': '/home/azureuser/test-page/bin/Agent.Listener'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'BG_COLOR': '"#030712c3"'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'BROWSER': '/usr/lib/code-server/lib/vscode/bin/helpers/browser.sh'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'GIT_ASKPASS': '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass.sh'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/azureuser'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'INVOCATION_ID': '0e0607cc64764448bcc26d11e4985e38'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'JOURNAL_STREAM': '9:1729904'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'C.UTF-8'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSCLOSE': '/usr/bin/lesspipe %s %s'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSOPEN': '| /usr/bin/lesspipe %s'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'azureuser'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'LS_COLORS'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/system-code\x2dserver.slice/code-server@azureuser.service/memory.pressure'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'NODE_EXEC_PATH': '/usr/lib/code-server/lib/node'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/home/azureuser'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/lib/code-server/lib/vscode/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'PORT': '3000'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/azureuser/test-page'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SGX_AESM_ADDR': '1'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SYSTEMD_EXEC_PID': '108309'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'azureuser'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VERSION': '"1.0.0"'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': ''
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_MAIN': '/usr/lib/code-server/lib/vscode/extensions/git/dist/askpass-main.js'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_NODE': '/usr/lib/code-server/lib/node'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-d7fb816fe0.sock'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4d501d69-e3c1-4d2f-b983-3a313162c6bf.sock'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_PROXY_URI': 'http://172.203.24.31:3030/proxy/{{port}}/'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1'
+[2026-07-07 07:17:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+[2026-07-07 07:17:26Z VERB NixCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'android'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/home/azureuser/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'ant'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Adding 'AzureGuestAgent': '/usr/sbin/waagent'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'clang'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'curl'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'docker'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/bin/docker'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'git'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'java'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'javac'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'make'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'node'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'npm'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'python'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'python3'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'sh'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'svn'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'rake'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'svn'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'generator'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2026-07-07 07:17:26Z VERB CapabilitiesBuilder] Entering CheckToolOutputAsync
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2026-07-07 07:17:26Z INFO CapabilitiesBuilder] Not found.
+[2026-07-07 07:17:26Z VERB UserCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-07-07 07:17:26Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:26Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'work_'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '5.275.0'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'vm-devops'
+[2026-07-07 07:17:26Z INFO HostContext] Well known directory 'Bin': '/home/azureuser/test-page/bin'
+[2026-07-07 07:17:26Z INFO HostContext] Well known directory 'Root': '/home/azureuser/test-page'
+[2026-07-07 07:17:26Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/azureuser/test-page'
+[2026-07-07 07:17:26Z INFO MessageListener] Loading Credentials
+[2026-07-07 07:17:26Z INFO ConfigurationStore] HasCredentials()
+[2026-07-07 07:17:26Z INFO ConfigurationStore] stored True
+[2026-07-07 07:17:26Z INFO CredentialManager] GetCredentialProvider
+[2026-07-07 07:17:26Z INFO CredentialManager] Creating type OAuth
+[2026-07-07 07:17:26Z INFO CredentialManager] Creating credential type: OAuth
+[2026-07-07 07:17:26Z VERB CredentialManager] Created credential type
+[2026-07-07 07:17:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:26Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2026-07-07 07:17:26Z INFO MessageListener] Attempt to create session.
+[2026-07-07 07:17:26Z INFO MessageListener] Connecting to the Agent Server...
+[2026-07-07 07:17:26Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-07-07 07:17:26Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-07-07 07:17:26Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/varorami/_apis/connectionData
+[2026-07-07 07:17:26Z VERB VisualStudioServices] Created OAuth issued token provider instance 19699911 (Bearer)
+[2026-07-07 07:17:26Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: bb28de9b-bc30-474c-8f46-ce77b14fb7a8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: cde002b4-c61a-4c9e-ae1c-4c7723d3139c
+X-TFS-Session: 5e033973-db72-4be2-bfb0-236b64c88689
+X-VSS-E2EID: d51936d3-e531-4d3e-97df-06acc70d5ca8
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/varorami/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/varorami/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fvarorami%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D95485980%26lastChangeId64%3D95485980&redirect=1&hid=9c2b5571-3107-4436-9caf-ff7fc8471c11&context=eyJodCI6MiwiaGlkIjoiMzE0YzZiYmQtNjEwNy00YjVkLTk5ODYtYjJjNDk2NmRjMDAwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=d06a2921-2b32-4115-9762-61ddd8cc8100#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+X-RateLimit-Cost: 0
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BFA2ECC84EF64241B02D589877E62F51 Ref B: BN1AA2051013039 Ref C: 2026-07-07T07:17:26Z
+Date: Tue, 07 Jul 2026 07:17:26 GMT
+
+[2026-07-07 07:17:26Z VERB VisualStudioServices] Started authentication
+[2026-07-07 07:17:26Z VERB VisualStudioServices] OAuth issued token provider instance 19699911 is acquiring a token
+[2026-07-07 07:17:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:27Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-07-07 07:17:27Z VERB VisualStudioServices] OAuth issued token provider instance 19699911 acquired new token instance 7141266
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Finished authentication
+[2026-07-07 07:17:27Z VERB VisualStudioServices] OAuth issued token provider instance 19699911 validated token instance 7141266
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/varorami/_apis/connectionData with status code 200
+[2026-07-07 07:17:27Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-07-07 07:17:27Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-07-07 07:17:27Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/varorami/_apis/connectionData
+[2026-07-07 07:17:27Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-07-07 07:17:27Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/varorami/_apis/connectionData
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/varorami/_apis/connectionData with status code 200
+[2026-07-07 07:17:27Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/varorami/_apis/connectionData with status code 200
+[2026-07-07 07:17:27Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-07-07 07:17:27Z INFO MessageListener] VssConnection created
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Started POST request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/sessions
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Finished POST request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/sessions with status code 200
+[2026-07-07 07:17:27Z INFO MessageListener] Session created.
+[2026-07-07 07:17:27Z INFO Agent] Session created successfully - agent is now listening for jobs
+[2026-07-07 07:17:27Z INFO Agent] Initializing runtime features from feature flags
+[2026-07-07 07:17:27Z VERB Agent] GetFeatureFlagAsync
+[2026-07-07 07:17:27Z INFO ConfigurationStore] HasCredentials()
+[2026-07-07 07:17:27Z INFO ConfigurationStore] stored True
+[2026-07-07 07:17:27Z INFO CredentialManager] GetCredentialProvider
+[2026-07-07 07:17:27Z INFO CredentialManager] Creating type OAuth
+[2026-07-07 07:17:27Z INFO CredentialManager] Creating credential type: OAuth
+[2026-07-07 07:17:27Z VERB CredentialManager] Created credential type
+[2026-07-07 07:17:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:27Z INFO ConfigurationManager] LoadSettings
+[2026-07-07 07:17:27Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:27Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:27Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:27Z INFO ConfigurationManager] Settings Loaded
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.UseEnhancedLogging
+[2026-07-07 07:17:27Z VERB VisualStudioServices] Created OAuth issued token provider instance 59487907 (Bearer)
+[2026-07-07 07:17:28Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 67393c66-2c2b-4fc8-9d6c-a5626c5e071d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 550c0033-3792-49f7-b27b-47b49675a721
+X-TFS-Session: 5e033973-db72-4be2-bfb0-236b64c88689
+X-VSS-E2EID: 1b2f660c-9d2f-4081-bc8c-a50a3b918c6f
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/varorami/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/varorami/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fvarorami%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.UseEnhancedLogging%3FcheckFeatureExists%3DFalse&redirect=1&hid=9c2b5571-3107-4436-9caf-ff7fc8471c11&context=eyJodCI6MiwiaGlkIjoiMzE0YzZiYmQtNjEwNy00YjVkLTk5ODYtYjJjNDk2NmRjMDAwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=5d4accf1-eeb4-4e5a-9973-341e3cdd38f5#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+X-RateLimit-Cost: 0
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 41968F99993246008EE2C98608B12DB5 Ref B: BN1AA2051015053 Ref C: 2026-07-07T07:17:27Z
+Date: Tue, 07 Jul 2026 07:17:27 GMT
+
+[2026-07-07 07:17:28Z VERB VisualStudioServices] Started authentication
+[2026-07-07 07:17:28Z VERB VisualStudioServices] OAuth issued token provider instance 59487907 is acquiring a token
+[2026-07-07 07:17:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:28Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-07-07 07:17:28Z VERB VisualStudioServices] OAuth issued token provider instance 59487907 acquired new token instance 21943666
+[2026-07-07 07:17:28Z VERB VisualStudioServices] Finished authentication
+[2026-07-07 07:17:29Z VERB VisualStudioServices] OAuth issued token provider instance 59487907 validated token instance 21943666
+[2026-07-07 07:17:29Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.UseEnhancedLogging with status code 200
+[2026-07-07 07:17:29Z VERB Agent] GetFeatureFlagAsync
+[2026-07-07 07:17:29Z INFO ConfigurationStore] HasCredentials()
+[2026-07-07 07:17:29Z INFO ConfigurationStore] stored True
+[2026-07-07 07:17:29Z INFO CredentialManager] GetCredentialProvider
+[2026-07-07 07:17:29Z INFO CredentialManager] Creating type OAuth
+[2026-07-07 07:17:29Z INFO CredentialManager] Creating credential type: OAuth
+[2026-07-07 07:17:29Z VERB CredentialManager] Created credential type
+[2026-07-07 07:17:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:29Z INFO ConfigurationManager] LoadSettings
+[2026-07-07 07:17:29Z INFO ConfigurationStore] IsConfigured()
+[2026-07-07 07:17:29Z INFO ConfigurationStore] IsConfigured: True
+[2026-07-07 07:17:29Z INFO ConfigurationManager] Is configured: True
+[2026-07-07 07:17:29Z INFO ConfigurationManager] Settings Loaded
+[2026-07-07 07:17:29Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.EnhancedWorkerCrashHandling
+[2026-07-07 07:17:29Z VERB VisualStudioServices] Created OAuth issued token provider instance 5896758 (Bearer)
+[2026-07-07 07:17:29Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 67393c66-2c2b-4fc8-9d6c-a5626c5e071d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 550c0006-3792-49f7-b27b-47b49675a721
+X-TFS-Session: 5e033973-db72-4be2-bfb0-236b64c88689
+X-VSS-E2EID: 4808add8-7d75-4b0d-8ff0-95d5fa88b8de
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/varorami/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/varorami/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fvarorami%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.EnhancedWorkerCrashHandling%3FcheckFeatureExists%3DFalse&redirect=1&hid=9c2b5571-3107-4436-9caf-ff7fc8471c11&context=eyJodCI6MiwiaGlkIjoiMzE0YzZiYmQtNjEwNy00YjVkLTk5ODYtYjJjNDk2NmRjMDAwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=aae34045-36d8-4cc7-814b-151ccf498d38#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+X-RateLimit-Cost: 0
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 8AF95FA5B3A34E08969B33AC69C01524 Ref B: BN1AA2051013033 Ref C: 2026-07-07T07:17:29Z
+Date: Tue, 07 Jul 2026 07:17:29 GMT
+
+[2026-07-07 07:17:29Z VERB VisualStudioServices] Started authentication
+[2026-07-07 07:17:29Z VERB VisualStudioServices] OAuth issued token provider instance 5896758 is acquiring a token
+[2026-07-07 07:17:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:30Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-07-07 07:17:30Z VERB VisualStudioServices] OAuth issued token provider instance 5896758 acquired new token instance 60375305
+[2026-07-07 07:17:30Z VERB VisualStudioServices] Finished authentication
+[2026-07-07 07:17:30Z VERB VisualStudioServices] OAuth issued token provider instance 5896758 validated token instance 60375305
+[2026-07-07 07:17:30Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.EnhancedWorkerCrashHandling with status code 200
+[2026-07-07 07:17:30Z INFO Agent] Enhanced logging feature flag is enabled
+[2026-07-07 07:17:30Z VERB Agent] [GetFeatureFlagAsync] GetFeatureFlagAsync
+[2026-07-07 07:17:30Z INFO ConfigurationStore] [HasCredentials] HasCredentials()
+[2026-07-07 07:17:30Z INFO ConfigurationStore] [HasCredentials] stored True
+[2026-07-07 07:17:30Z INFO CredentialManager] [GetCredentialProvider] GetCredentialProvider
+[2026-07-07 07:17:30Z INFO CredentialManager] [GetCredentialProvider] Creating type OAuth
+[2026-07-07 07:17:30Z INFO CredentialManager] [GetCredentialProvider] Creating credential type: OAuth
+[2026-07-07 07:17:30Z VERB CredentialManager] [GetCredentialProvider] Created credential type
+[2026-07-07 07:17:30Z INFO RSAFileKeyManager] [GetKey] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:30Z INFO ConfigurationManager] [LoadSettings] LoadSettings
+[2026-07-07 07:17:30Z INFO ConfigurationStore] [IsConfigured] IsConfigured()
+[2026-07-07 07:17:30Z INFO ConfigurationStore] [IsConfigured] IsConfigured: True
+[2026-07-07 07:17:30Z INFO ConfigurationManager] [IsConfigured] Is configured: True
+[2026-07-07 07:17:30Z INFO ConfigurationManager] [LoadSettings] Settings Loaded
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.EnableProgressiveRetryBackoff
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Created OAuth issued token provider instance 46228029 (Bearer)
+[2026-07-07 07:17:30Z WARN VisualStudioServices] [OnEventWritten] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 67393c66-2c2b-4fc8-9d6c-a5626c5e071d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 550c03e5-3792-49f7-b27b-47b49675a721
+X-TFS-Session: 5e033973-db72-4be2-bfb0-236b64c88689
+X-VSS-E2EID: a92c24d8-2f10-4862-8a89-06aa869af6bd
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/varorami/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/varorami/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fvarorami%2F_apis%2FFeatureFlags%2FDistributedTask.Agent.EnableProgressiveRetryBackoff%3FcheckFeatureExists%3DFalse&redirect=1&hid=9c2b5571-3107-4436-9caf-ff7fc8471c11&context=eyJodCI6MiwiaGlkIjoiMzE0YzZiYmQtNjEwNy00YjVkLTk5ODYtYjJjNDk2NmRjMDAwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=d5daf6f5-ffed-4e9c-801d-4c3b8660eced#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+X-RateLimit-Cost: 0
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: F4F9D10866BF4798AC5B9C76EC25D979 Ref B: BN1AA2051015053 Ref C: 2026-07-07T07:17:30Z
+Date: Tue, 07 Jul 2026 07:17:29 GMT
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Started authentication
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 46228029 is acquiring a token
+[2026-07-07 07:17:30Z INFO RSAFileKeyManager] [GetKey] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:30Z INFO RSAFileKeyManager] [GetKey] Loading RSA key parameters from file /home/azureuser/test-page/.credentials_rsaparams
+[2026-07-07 07:17:30Z INFO VisualStudioServices] [OnEventWritten] AAD Correlation ID for this token request: Unknown
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 46228029 acquired new token instance 49129953
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Finished authentication
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] OAuth issued token provider instance 46228029 validated token instance 49129953
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/FeatureFlags/DistributedTask.Agent.EnableProgressiveRetryBackoff with status code 200
+[2026-07-07 07:17:30Z INFO Agent] [InitializeRuntimeFeatures] Progressive backoff feature flag is disabled
+[2026-07-07 07:17:30Z INFO Agent] [InitializeRuntimeFeatures] Enhanced worker crash handling feature flag is enabled
+[2026-07-07 07:17:30Z INFO Agent] [InitializeRuntimeFeatures] Runtime features initialization completed successfully
+[2026-07-07 07:17:30Z INFO Terminal] [WriteLine] WRITE LINE: 2026-07-07 07:17:30Z: Listening for Jobs
+[2026-07-07 07:17:30Z INFO Agent] [RunAsync] Initializing job notification service for real-time updates
+[2026-07-07 07:17:30Z VERB JobNotification] [Initialize] Entering Initialize
+[2026-07-07 07:17:30Z VERB JobDispatcher] [Initialize] Entering Initialize
+[2026-07-07 07:17:30Z INFO JobDispatcher] [Initialize] JobDispatcher initialized - agent/worker IPC timeout: 30 seconds
+[2026-07-07 07:17:30Z INFO MessageListener] [KeepAlive] Progressive backoff knob value: False
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:17:30Z INFO Agent] [RunAsync] Starting message processing loop - agent ready to receive jobs
+[2026-07-07 07:17:30Z INFO Agent] [RunAsync] Next message wait initiated - Agent ready to receive next message from server
+[2026-07-07 07:17:30Z VERB MessageListener] [GetNextMessageAsync] Entering GetNextMessageAsync
+[2026-07-07 07:17:30Z INFO MessageListener] [GetNextMessageAsync] Progressive backoff knob value: False
+[2026-07-07 07:17:30Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:17:31Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:17:31Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:17:31Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 12.262 seconds before retrying.
+[2026-07-07 07:17:43Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:17:43Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:17:43Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:17:43Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 12.054 seconds before retrying.
+[2026-07-07 07:17:55Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:17:55Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:17:55Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:17:55Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 5.409 seconds before retrying.
+[2026-07-07 07:18:01Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:18:01Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:18:01Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:18:01Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 10.247 seconds before retrying.
+[2026-07-07 07:18:11Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:18:11Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:18:11Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:18:11Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 5.184 seconds before retrying.
+[2026-07-07 07:18:16Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:18:17Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:18:17Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:18:17Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 14.79 seconds before retrying.
+[2026-07-07 07:18:21Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:18:21Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 18, session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:18:31Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:18:51Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:18:51Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:18:51Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 18, session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:19:21Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:19:21Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:19:21Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 18, session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:19:22Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:19:22Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:19:22Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 8.966 seconds before retrying.
+[2026-07-07 07:19:31Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:19:51Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:20:21Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:20:21Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:20:21Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 12.916 seconds before retrying.
+[2026-07-07 07:20:34Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:20:41Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:20:41Z INFO MessageListener] [KeepAlive] Sent GetAgentMessage to keep alive agent 18, session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:21:11Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages
+[2026-07-07 07:21:24Z VERB VisualStudioServices] [OnEventWritten] Finished GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages with status code 202
+[2026-07-07 07:21:24Z VERB MessageListener] [GetNextMessageAsync] No message retrieved from session '328339ab-a2c6-4cfb-8278-5505041ec489'.
+[2026-07-07 07:21:24Z INFO MessageListener] [GetNextMessageAsync] Sleeping for 8.716 seconds before retrying.
+[2026-07-07 07:21:33Z VERB VisualStudioServices] [OnEventWritten] Started GET request to https://dev.azure.com/varorami/_apis/distributedtask/pools/11/messages

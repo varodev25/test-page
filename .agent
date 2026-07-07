@@ -1,0 +1,9 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 18,
+  "agentName": "work_",
+  "poolId": 11,
+  "poolName": "local-agent",
+  "serverUrl": "https://dev.azure.com/varorami/",
+  "workFolder": "_work"
+}
