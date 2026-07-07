@@ -1,12 +1,3 @@
-# Node binaries
 externals/
-
-# Azure DevOps agent
 vsts-agent-*.tar.gz
-
-# Node modules
 node_modules/
-
-# Build artifacts
-dist/
-build/
